@@ -18,6 +18,7 @@ FastAPI을 이용한 모델 온라인 서빙
               ```shell
               > curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
               ```
+              이후 source $HOME/.poetry/env 해줘야 poetry가 인식됨(abbymark내가 추가한 내용)
          2. Poetry shell  
             Poetry로 가상환경을 만듭니다. 
             ```shell
