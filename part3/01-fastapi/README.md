@@ -19,6 +19,9 @@ FastAPI을 이용한 모델 온라인 서빙
               > curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
               ```
               이후 source $HOME/.poetry/env 해줘야 poetry가 인식됨(abbymark내가 추가한 내용)
+              
+              poetry venv 프로젝트 폴더에 같이 두기(나중에 vscode python interpreter 설정할때도 유용한것 같다.
+              https://stackoverflow.com/questions/59882884/vscode-doesnt-show-poetry-virtualenvs-in-select-interpreter-option
          2. Poetry shell  
             Poetry로 가상환경을 만듭니다. 
             ```shell
